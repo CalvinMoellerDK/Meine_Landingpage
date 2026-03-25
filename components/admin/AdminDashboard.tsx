@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Building2, Palette, FileText, BarChart3, LogOut } from "lucide-react";
+import { Building2, Palette, FileText, BarChart3, LogOut, AlertTriangle } from "lucide-react";
 import { SiteEditor } from "./SiteEditor";
 import { ThemeEditor } from "./ThemeEditor";
 import { ContentEditor } from "./ContentEditor";
@@ -17,6 +17,8 @@ const tabs: { id: Tab; label: string; icon: React.ReactNode }[] = [
   { id: "verkauf", label: "Seite: Verkauf", icon: <FileText className="h-4 w-4" /> },
   { id: "akquise", label: "Seite: Akquise", icon: <FileText className="h-4 w-4" /> },
 ];
+
+const isProduction = process.env.NODE_ENV === "production";
 
 export function AdminDashboard() {
   const [activeTab, setActiveTab] = useState<Tab>("site");
@@ -71,6 +73,19 @@ export function AdminDashboard() {
       {/* Main Content */}
       <main className="ml-60 flex-1 p-8">
         <div className="mx-auto max-w-4xl">
+          {isProduction && (
+            <div className="mb-6 flex gap-3 rounded-xl border border-amber-200 bg-amber-50 p-4">
+              <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0 text-amber-500" />
+              <div className="text-sm text-amber-800">
+                <p className="font-medium">Nur-Lese-Modus (Production)</p>
+                <p className="mt-1 text-amber-600">
+                  Änderungen können nur lokal vorgenommen werden. Starte das Projekt mit{" "}
+                  <code className="rounded bg-amber-100 px-1.5 py-0.5 font-mono text-xs">npm run dev</code>{" "}
+                  auf deinem Rechner, um Inhalte zu bearbeiten, und deploye danach neu.
+                </p>
+              </div>
+            </div>
+          )}
           {activeTab === "site" && <SiteEditor />}
           {activeTab === "theme" && <ThemeEditor />}
           {activeTab === "tracking" && <TrackingEditor />}

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { isAuthenticated } from "@/lib/admin-auth";
+import { requireDevMode } from "@/lib/admin-guard";
 import fs from "fs/promises";
 import path from "path";
 
@@ -10,6 +11,9 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Nicht autorisiert" }, { status: 401 });
   }
 
+  const blocked = requireDevMode();
+  if (blocked) return blocked;
+
   try {
     const formData = await req.formData();
     const file = formData.get("file") as File;
@@ -18,21 +22,17 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Keine Datei hochgeladen" }, { status: 400 });
     }
 
-    // Validate file type
     const allowedTypes = ["image/jpeg", "image/png", "image/webp", "image/svg+xml", "image/gif"];
     if (!allowedTypes.includes(file.type)) {
       return NextResponse.json({ error: "Nur Bilder erlaubt (JPG, PNG, WebP, SVG, GIF)" }, { status: 400 });
     }
 
-    // Max 5MB
     if (file.size > 5 * 1024 * 1024) {
       return NextResponse.json({ error: "Datei zu groß (max. 5MB)" }, { status: 400 });
     }
 
-    // Ensure upload directory exists
     await fs.mkdir(UPLOAD_DIR, { recursive: true });
 
-    // Generate unique filename
     const ext = path.extname(file.name) || ".png";
     const safeName = file.name
       .replace(ext, "")
@@ -41,7 +41,6 @@ export async function POST(req: NextRequest) {
     const filename = `${safeName}-${Date.now()}${ext}`;
     const filePath = path.join(UPLOAD_DIR, filename);
 
-    // Write file
     const buffer = Buffer.from(await file.arrayBuffer());
     await fs.writeFile(filePath, buffer);
 

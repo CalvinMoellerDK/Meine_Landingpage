@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { isAuthenticated } from "@/lib/admin-auth";
+import { requireDevMode } from "@/lib/admin-guard";
 import fs from "fs/promises";
 import path from "path";
 
@@ -24,13 +25,14 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Nicht autorisiert" }, { status: 401 });
   }
 
+  const blocked = requireDevMode();
+  if (blocked) return blocked;
+
   try {
     const data = await req.json();
 
-    // Save theme JSON
     await fs.writeFile(THEME_PATH, JSON.stringify(data, null, 2), "utf-8");
 
-    // Update globals.css with new colors
     const cssContent = `@import "tailwindcss";
 
 @theme {

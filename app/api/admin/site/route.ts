@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { isAuthenticated } from "@/lib/admin-auth";
+import { requireDevMode } from "@/lib/admin-guard";
 import fs from "fs/promises";
 import path from "path";
 
@@ -22,6 +23,9 @@ export async function POST(req: NextRequest) {
   if (!(await isAuthenticated())) {
     return NextResponse.json({ error: "Nicht autorisiert" }, { status: 401 });
   }
+
+  const blocked = requireDevMode();
+  if (blocked) return blocked;
 
   try {
     const data = await req.json();
