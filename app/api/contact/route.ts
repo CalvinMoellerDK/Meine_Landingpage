@@ -1,17 +1,22 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sendCAPIEvent } from "@/lib/meta-capi";
+import { sendContactEmail } from "@/lib/send-email";
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { name, email, phone, message } = body;
+    const { name, email, phone, position, message } = body;
 
-    if (!name || !email || !phone) {
+    if (!name || !email) {
       return NextResponse.json({ error: "Bitte füllen Sie alle Pflichtfelder aus." }, { status: 400 });
     }
 
-    console.log("New contact form submission:", { name, email, phone, message });
+    console.log("New contact form submission:", { name, email, phone, position, message });
 
+    // Send email notification
+    await sendContactEmail({ name, email, phone, position, message });
+
+    // Send Lead event to Meta CAPI
     const ip = req.headers.get("x-forwarded-for") || req.headers.get("x-real-ip") || "";
     const ua = req.headers.get("user-agent") || "";
     const cookies = req.headers.get("cookie") || "";
@@ -31,6 +36,7 @@ export async function POST(req: NextRequest) {
       },
       customData: {
         lead_name: name,
+        ...(position ? { position } : {}),
       },
       eventSourceUrl: req.headers.get("referer") || undefined,
     });

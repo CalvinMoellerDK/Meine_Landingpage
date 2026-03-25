@@ -6,7 +6,7 @@ import { SaveButton } from "./SaveButton";
 import { ImageUpload } from "./ImageUpload";
 
 interface ContentEditorProps {
-  page: "verkauf" | "akquise";
+  page: string;
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
