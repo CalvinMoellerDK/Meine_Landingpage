@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Immobilie verkaufen in Musterstadt | Kostenlose Bewertung",
+    "description": "Sie möchten Ihre Immobilie verkaufen? Wir erzielen den besten Preis – schnell, diskret und professionell. Jetzt kostenlose Bewertung anfordern!"
+  },
+  "hero": {
+    "badge": "Ihr Immobilienexperte vor Ort",
+    "headline": "Ihre Immobilie verdient\nden besten Preis",
+    "subheadline": "Wir verkaufen Ihre Immobilie schnell, diskret und zum bestmöglichen Preis. Profitieren Sie von unserer lokalen Marktkenntnis und über 500 vorgemerkten Kaufinteressenten.",
+    "ctaText": "Kostenlose Bewertung anfordern",
+    "ctaSubtext": "Unverbindlich & in 24h erhalten",
+    "image": "/placeholder-hero.svg",
+    "imageVisible": true,
+    "trustBadges": ["Kostenlose Erstberatung", "Regionale Marktkenntnis", "Über 200 verkaufte Objekte"]
+  },
+  "problem": {
+    "badge": "Kennen Sie das?",
+    "headline": "Immobilienverkauf ohne\nProfis ist riskant",
+    "subheadline": "Viele Eigentümer unterschätzen den Aufwand und die Risiken eines Immobilienverkaufs ohne professionelle Unterstützung.",
+    "items": [
+      { "icon": "TrendingDown", "title": "Zu niedriger Verkaufspreis", "description": "Ohne fundierte Marktanalyse verschenken viele Eigentümer bares Geld. Eine falsche Preiseinschätzung kann Sie zehntausende Euro kosten." },
+      { "icon": "Clock", "title": "Monatelanges Warten", "description": "Falsche Vermarktung, schlechte Fotos oder der falsche Preis führen dazu, dass Ihre Immobilie zum Ladenhüter wird." },
+      { "icon": "UserX", "title": "Unqualifizierte Interessenten", "description": "Endlose Besichtigungen mit Schautouristen kosten Zeit und Nerven. Ohne Vorqualifizierung verschwenden Sie wertvolle Wochenenden." },
+      { "icon": "ShieldAlert", "title": "Rechtliche Fallstricke", "description": "Energieausweis, Widerrufsrecht, Gewährleistung – ein fehlerhafter Kaufvertrag kann teuer werden und zu jahrelangem Rechtsstreit führen." }
+    ]
+  },
+  "solution": {
+    "badge": "So arbeiten wir",
+    "headline": "Ihr Immobilienverkauf\nin 3 Schritten",
+    "subheadline": "Professionell, transparent und stressfrei für Sie.",
+    "steps": [
+      { "step": 1, "icon": "Search", "title": "Kostenlose Bewertung", "description": "Wir analysieren den lokalen Markt, vergleichen aktuelle Verkaufspreise und ermitteln den optimalen Angebotspreis für Ihre Immobilie – kostenlos und unverbindlich." },
+      { "step": 2, "icon": "Camera", "title": "Professionelle Vermarktung", "description": "Hochwertige Fotos, Drohnenaufnahmen, virtuelle Rundgänge und Exposés auf allen relevanten Portalen. Dazu nutzen wir unser Netzwerk aus vorgemerkten Kaufinteressenten." },
+      { "step": 3, "icon": "Handshake", "title": "Verkauf & Übergabe", "description": "Wir führen qualifizierte Besichtigungen durch, verhandeln den besten Preis und begleiten Sie bis zur Schlüsselübergabe – inklusive Notartermin." }
+    ]
+  },
+  "benefits": {
+    "badge": "Ihre Vorteile",
+    "headline": "Warum Eigentümer\nuns vertrauen",
+    "subheadline": "Wir bieten Ihnen einen Rundum-Service, der Ihnen Zeit, Stress und bares Geld spart.",
+    "items": [
+      { "icon": "BadgeEuro", "title": "Marktgerechter Bestpreis", "description": "Durch fundierte Marktanalysen und strategische Preisverhandlung erzielen wir im Schnitt 12% mehr als der durchschnittliche Angebotspreis." },
+      { "icon": "Camera", "title": "Premium-Vermarktung", "description": "Professionelle Fotos, Drohnenaufnahmen, Home Staging und virtuelle 360°-Rundgänge – Ihre Immobilie im besten Licht." },
+      { "icon": "Users", "title": "Vorgemerkte Käufer", "description": "Über 500 vorgemerkte und bonitätsgeprüfte Kaufinteressenten in unserer Datenbank. Oft finden wir den Käufer, bevor das Inserat online geht." },
+      { "icon": "ShieldCheck", "title": "Rechtssicherheit", "description": "Alle Unterlagen, Verträge und gesetzliche Pflichten werden von uns professionell vorbereitet und geprüft." },
+      { "icon": "Clock", "title": "Schneller Verkauf", "description": "Durch unser Käufernetzwerk und gezielte Vermarktung verkaufen wir Ihre Immobilie im Schnitt innerhalb von 90 Tagen." },
+      { "icon": "Heart", "title": "Persönliche Betreuung", "description": "Ein fester Ansprechpartner begleitet Sie durch den gesamten Verkaufsprozess – erreichbar, transparent und vertrauensvoll." }
+    ]
+  },
+  "testimonials": {
+    "badge": "Kundenstimmen",
+    "headline": "Das sagen unsere\nzufriedenen Verkäufer",
+    "subheadline": "Echte Erfahrungen von Eigentümern, die mit uns verkauft haben.",
+    "items": [
+      { "name": "Familie Schneider", "role": "Einfamilienhaus", "location": "Musterstadt-Süd", "text": "Wir waren skeptisch, ob ein Makler den Preis wert ist. Am Ende haben wir durch die professionelle Vermarktung 35.000€ mehr erzielt als gedacht. Die Betreuung war hervorragend!", "rating": 5 },
+      { "name": "Thomas K.", "role": "Eigentumswohnung", "location": "Musterstadt-Zentrum", "text": "Innerhalb von 6 Wochen war meine Wohnung verkauft – zum Wunschpreis. Besonders beeindruckt hat mich die Qualität der Fotos und des Exposés.", "rating": 5 },
+      { "name": "Ingrid M.", "role": "Mehrfamilienhaus", "location": "Musterstadt-Nord", "text": "Nach einer Erbschaft musste es schnell gehen. Das Team hat alles organisiert – von der Bewertung bis zum Notar. Ich musste mich um nichts kümmern.", "rating": 5 }
+    ]
+  },
+  "faq": {
+    "badge": "Häufige Fragen",
+    "headline": "Ihre Fragen,\nunsere Antworten",
+    "items": [
+      { "question": "Was kostet die Immobilienbewertung?", "answer": "Die Erstbewertung Ihrer Immobilie ist für Sie komplett kostenlos und unverbindlich. Wir analysieren den Markt, vergleichbare Verkäufe und den Zustand Ihrer Immobilie, um einen realistischen Marktwert zu ermitteln." },
+      { "question": "Wie hoch ist die Maklerprovision?", "answer": "Seit Dezember 2020 gilt die gesetzliche Provisionsteilung: Die Provision wird in der Regel hälftig zwischen Käufer und Verkäufer aufgeteilt. Die genaue Höhe besprechen wir transparent im Erstgespräch." },
+      { "question": "Wie lange dauert der Verkauf?", "answer": "Im Schnitt verkaufen wir Immobilien innerhalb von 60-90 Tagen. Bei besonders gefragten Lagen oder durch unser Käufernetzwerk geht es oft schneller. Wir halten Sie über jeden Schritt auf dem Laufenden." },
+      { "question": "Welche Unterlagen brauche ich?", "answer": "Grundbuchauszug, Energieausweis, Wohnflächenberechnung und Grundrisse sind die wichtigsten Dokumente. Keine Sorge – wir helfen Ihnen bei der Beschaffung aller fehlenden Unterlagen." },
+      { "question": "Kann ich meine Immobilie auch diskret verkaufen?", "answer": "Ja, wir bieten auch den diskreten Off-Market-Verkauf an. Ihre Immobilie wird nicht öffentlich inseriert, sondern ausschließlich vorgemerkten, geprüften Kaufinteressenten angeboten." }
+    ]
+  },
+  "cta": {
+    "headline": "Bereit für den Verkauf Ihrer Immobilie?",
+    "subheadline": "Fordern Sie jetzt Ihre kostenlose Immobilienbewertung an. Unverbindlich, diskret und innerhalb von 24 Stunden.",
+    "ctaText": "Kostenlose Bewertung anfordern",
+    "features": ["Kostenlos & unverbindlich", "Bewertung in 24 Stunden", "Persönliche Beratung vor Ort"],
+    "image": "/placeholder-cta.svg",
+    "imageVisible": true
+  },
+  "contact": {
+    "badge": "Kontakt",
+    "headline": "Kostenlose Bewertung\nanfordern",
+    "subheadline": "Füllen Sie das Formular aus und wir melden uns innerhalb von 24 Stunden bei Ihnen mit einer ersten Einschätzung.",
+    "successMessage": "Vielen Dank für Ihre Anfrage! Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+    "fields": {
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail-Adresse",
+      "phone": "Ihre Telefonnummer",
+      "message": "Beschreiben Sie kurz Ihre Immobilie (Art, Lage, Größe, Baujahr)",
+      "submit": "Bewertung anfordern",
+      "consent": "Ich stimme der Verarbeitung meiner Daten gemäß der <a href='/datenschutz' class='text-primary underline hover:no-underline'>Datenschutzerklärung</a> zu."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Mustermann Immobilien GmbH. Alle Rechte vorbehalten.",
+    "links": [
+      { "label": "Impressum", "href": "/impressum" },
+      { "label": "Datenschutz", "href": "/datenschutz" }
+    ]
+  }
+}

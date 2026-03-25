@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "title": "Immobilie kaufen in Musterstadt | Ihr Traumobjekt finden",
+    "description": "Sie suchen eine Immobilie zum Kaufen? Wir finden Ihr Traumhaus oder Ihre Wunsch-Wohnung – aus exklusiven Angeboten und Off-Market-Objekten in Musterstadt."
+  },
+  "hero": {
+    "badge": "Ihr Immobilienexperte vor Ort",
+    "headline": "Finden Sie Ihre\nTraumimmobilie",
+    "subheadline": "Ob Eigenheim, Eigentumswohnung oder Kapitalanlage – wir finden die passende Immobilie für Sie. Profitieren Sie von exklusiven Off-Market-Angeboten und unserer persönlichen Beratung.",
+    "ctaText": "Suchprofil anlegen",
+    "ctaSubtext": "Kostenlos & unverbindlich – sofort passende Objekte erhalten",
+    "image": "/placeholder-hero.svg",
+    "imageVisible": true,
+    "trustBadges": ["Exklusive Objekte", "Persönliche Beratung", "Kostenlose Suchaufträge"]
+  },
+  "problem": {
+    "badge": "Kennen Sie das?",
+    "headline": "Immobiliensuche\nohne Makler ist frustrierend",
+    "subheadline": "Viele Käufer verbringen Monate mit der Suche und verpassen trotzdem die besten Objekte.",
+    "items": [
+      { "icon": "SearchX", "title": "Gute Objekte sind sofort weg", "description": "Die besten Immobilien werden oft verkauft, bevor sie auf den großen Portalen erscheinen. Ohne Netzwerk erfahren Sie davon zu spät." },
+      { "icon": "Clock", "title": "Endlose Suche ohne Ergebnis", "description": "Stundenlang Portale durchsuchen, Dutzende Anfragen senden und trotzdem keine passende Immobilie finden – das kostet Zeit und Nerven." },
+      { "icon": "ShieldAlert", "title": "Versteckte Mängel übersehen", "description": "Ohne Fachwissen übersehen Käufer schnell bauliche Mängel, überhöhte Preise oder rechtliche Risiken. Das kann teuer werden." },
+      { "icon": "BadgeEuro", "title": "Zu viel bezahlt", "description": "Ohne fundierte Marktkenntnis zahlen viele Käufer mehr als nötig. Professionelle Preisverhandlung kann Ihnen tausende Euro sparen." }
+    ]
+  },
+  "solution": {
+    "badge": "So finden wir Ihre Immobilie",
+    "headline": "Ihre Traumimmobilie\nin 3 Schritten",
+    "subheadline": "Persönlich, gezielt und mit Zugang zu exklusiven Angeboten.",
+    "steps": [
+      { "step": 1, "icon": "ClipboardList", "title": "Suchprofil anlegen", "description": "Erzählen Sie uns, was Sie suchen – Lage, Größe, Budget, besondere Wünsche. Je genauer, desto besser finden wir die passende Immobilie für Sie." },
+      { "step": 2, "icon": "Home", "title": "Passende Objekte erhalten", "description": "Wir durchsuchen unser exklusives Portfolio, Off-Market-Angebote und unser Netzwerk. Sie erhalten nur vorselektierte Objekte, die wirklich zu Ihnen passen." },
+      { "step": 3, "icon": "Handshake", "title": "Besichtigung & Kaufabschluss", "description": "Wir begleiten Sie von der Besichtigung über die Preisverhandlung bis zum Notartermin. Inklusive Prüfung aller Unterlagen und Objektbewertung." }
+    ]
+  },
+  "benefits": {
+    "badge": "Ihre Vorteile",
+    "headline": "Warum Käufer\nuns vertrauen",
+    "subheadline": "Wir machen die Immobiliensuche einfach, effizient und sicher.",
+    "items": [
+      { "icon": "Lock", "title": "Exklusive Off-Market-Objekte", "description": "Zugang zu Immobilien, die nicht öffentlich inseriert werden. Viele unserer besten Objekte werden direkt an vorgemerkte Käufer vermittelt." },
+      { "icon": "Search", "title": "Gezielte Suche statt Massenportale", "description": "Kein stundenlanges Scrollen. Wir filtern vor und präsentieren Ihnen nur Objekte, die exakt Ihren Kriterien entsprechen." },
+      { "icon": "BadgeEuro", "title": "Professionelle Preisverhandlung", "description": "Wir kennen den Marktwert und verhandeln für Sie. Im Schnitt erzielen unsere Käufer 8% bessere Kaufpreise." },
+      { "icon": "ShieldCheck", "title": "Sichere Kaufabwicklung", "description": "Prüfung aller Unterlagen, Grundbuchauszüge und Baulastenverzeichnis. Wir erkennen Risiken, bevor Sie kaufen." },
+      { "icon": "UserCheck", "title": "Persönlicher Ansprechpartner", "description": "Ein fester Berater begleitet Sie durch den gesamten Kaufprozess – erreichbar, ehrlich und auf Ihrer Seite." },
+      { "icon": "Zap", "title": "Schneller als die Portale", "description": "Durch unser Netzwerk erfahren Sie von neuen Objekten oft Tage bevor sie online gehen. Der entscheidende Vorsprung." }
+    ]
+  },
+  "testimonials": {
+    "badge": "Kundenstimmen",
+    "headline": "Das sagen unsere\nzufriedenen Käufer",
+    "subheadline": "Echte Erfahrungen von Käufern, die mit uns ihre Traumimmobilie gefunden haben.",
+    "items": [
+      { "name": "Familie Weber", "role": "Einfamilienhaus", "location": "Musterstadt-Süd", "text": "Nach 6 Monaten erfolgloser Suche auf den Portalen haben wir uns an das Team gewandt. Innerhalb von 4 Wochen hatten wir 3 passende Besichtigungen – und unser Traumhaus gefunden!", "rating": 5 },
+      { "name": "Martin & Julia K.", "role": "Eigentumswohnung", "location": "Musterstadt-Zentrum", "text": "Die Wohnung war noch gar nicht auf ImmoScout inseriert. Durch das Off-Market-Netzwerk hatten wir einen echten Vorteil. Top Beratung und faire Preisverhandlung!", "rating": 5 },
+      { "name": "Stefan H.", "role": "Kapitalanlage", "location": "Musterstadt-Nord", "text": "Als Investor schätze ich die Marktkenntnis und ehrliche Bewertung. Das Team hat mir Objekte vorgeschlagen, die eine solide Rendite bieten – ohne überhöhte Preise.", "rating": 5 }
+    ]
+  },
+  "faq": {
+    "badge": "Häufige Fragen",
+    "headline": "Ihre Fragen zum\nImmobilienkauf",
+    "items": [
+      { "question": "Kostet die Suchauftrag-Erstellung etwas?", "answer": "Nein, das Anlegen eines Suchprofils und die Vermittlung passender Objekte ist für Sie als Käufer komplett kostenlos und unverbindlich." },
+      { "question": "Wie schnell bekomme ich Objektvorschläge?", "answer": "In der Regel erhalten Sie innerhalb weniger Tage erste passende Vorschläge. Bei sehr gefragten Lagen kann es auch schneller gehen, da wir sofort in unserem Portfolio prüfen." },
+      { "question": "Was sind Off-Market-Objekte?", "answer": "Off-Market-Objekte sind Immobilien, die nicht öffentlich auf Portalen wie ImmoScout oder Immowelt inseriert werden. Eigentümer möchten diskret verkaufen und vermarkten ihre Immobilie nur über ausgewählte Makler." },
+      { "question": "Wer bezahlt die Maklerprovision?", "answer": "Seit Dezember 2020 wird die Provision bei Wohnimmobilien in der Regel hälftig zwischen Käufer und Verkäufer aufgeteilt. Die genaue Regelung besprechen wir transparent mit Ihnen." },
+      { "question": "Kann ich auch als Kapitalanleger kaufen?", "answer": "Ja, wir beraten auch Investoren und Kapitalanleger. Wir analysieren Renditen, Mietpotenzial und Standortfaktoren, um Ihnen rentable Anlageobjekte vorzuschlagen." }
+    ]
+  },
+  "cta": {
+    "headline": "Bereit für Ihre Traumimmobilie?",
+    "subheadline": "Legen Sie jetzt Ihr kostenloses Suchprofil an. Wir finden passende Objekte – auch Off-Market.",
+    "ctaText": "Suchprofil anlegen",
+    "features": ["Kostenlos & unverbindlich", "Exklusive Off-Market-Objekte", "Persönliche Beratung"],
+    "image": "/placeholder-cta.svg",
+    "imageVisible": true
+  },
+  "contact": {
+    "badge": "Suchprofil",
+    "headline": "Suchprofil\nanlegen",
+    "subheadline": "Erzählen Sie uns, was Sie suchen. Wir melden uns mit passenden Objektvorschlägen bei Ihnen.",
+    "successMessage": "Vielen Dank! Wir prüfen unser Portfolio und melden uns in Kürze mit passenden Objekten bei Ihnen.",
+    "fields": {
+      "name": "Ihr Name",
+      "email": "Ihre E-Mail-Adresse",
+      "phone": "Ihre Telefonnummer",
+      "message": "Was suchen Sie? (z.B. Haus/Wohnung, Lage, Zimmeranzahl, Budget, Besonderes)",
+      "submit": "Suchprofil anlegen",
+      "consent": "Ich stimme der Verarbeitung meiner Daten gemäß der <a href='/datenschutz' class='text-primary underline hover:no-underline'>Datenschutzerklärung</a> zu."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Mustermann Immobilien GmbH. Alle Rechte vorbehalten.",
+    "links": [
+      { "label": "Impressum", "href": "/impressum" },
+      { "label": "Datenschutz", "href": "/datenschutz" }
+    ]
+  }
+}

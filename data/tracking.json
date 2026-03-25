@@ -1,0 +1,26 @@
+{
+  "metaPixel": {
+    "enabled": false,
+    "pixelId": "",
+    "capiToken": "",
+    "capiPixelId": ""
+  },
+  "googleAnalytics": {
+    "enabled": false,
+    "measurementId": ""
+  },
+  "googleTagManager": {
+    "enabled": false,
+    "containerId": ""
+  },
+  "posthog": {
+    "enabled": false,
+    "apiKey": "",
+    "apiHost": "https://eu.i.posthog.com"
+  },
+  "matomo": {
+    "enabled": false,
+    "url": "",
+    "siteId": ""
+  }
+}

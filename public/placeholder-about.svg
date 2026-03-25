@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <rect width="600" height="400" rx="20" fill="#F5F5F4"/>
+  <!-- Person 1 -->
+  <circle cx="200" cy="160" r="35" fill="#1B4D3E"/>
+  <rect x="165" y="205" width="70" height="90" rx="10" fill="#1B4D3E"/>
+  <!-- Person 2 -->
+  <circle cx="300" cy="145" r="40" fill="#2D7A5F"/>
+  <rect x="260" y="195" width="80" height="100" rx="10" fill="#2D7A5F"/>
+  <!-- Person 3 -->
+  <circle cx="410" cy="160" r="35" fill="#153D31"/>
+  <rect x="375" y="205" width="70" height="90" rx="10" fill="#153D31"/>
+  <!-- Handshake -->
+  <path d="M250 340 Q300 310 350 340" stroke="#57534E" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="250" cy="340" r="8" fill="#57534E"/>
+  <circle cx="350" cy="340" r="8" fill="#57534E"/>
+  <!-- Stars -->
+  <path d="M480 80 L485 95 L500 90 L487 100 L492 115 L480 105 L468 115 L473 100 L460 90 L475 95Z" fill="#1B4D3E" opacity="0.3"/>
+  <path d="M120 100 L123 108 L132 106 L125 112 L128 120 L120 114 L112 120 L115 112 L108 106 L117 108Z" fill="#2D7A5F" opacity="0.3"/>
+</svg>
