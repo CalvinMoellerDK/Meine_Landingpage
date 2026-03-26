@@ -106,6 +106,12 @@ export default function HomePage() {
             <a href="/datenschutz" className="transition-colors hover:text-primary">Datenschutz</a>
           </nav>
         </div>
+        <div className="container mx-auto mt-3 border-t border-stone-200 pt-3 text-center text-xs text-stone-400">
+          Designed with ❤️ von{' '}
+          <a href="https://dirkkreuter.com" rel="nofollow noopener noreferrer" target="_blank" className="underline hover:text-primary transition-colors">
+            Dirk Kreuters Tech Team
+          </a>
+        </div>
       </footer>
     </div>
   );
