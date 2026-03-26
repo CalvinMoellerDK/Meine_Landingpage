@@ -1,9 +1,9 @@
 {
   "colors": {
-    "primary": "#1B4D3E",
-    "primaryDark": "#153D31",
-    "primaryLight": "#2D7A5F",
-    "accent": "#0F172A"
+    "primary": "#fb00ff",
+    "primaryDark": "#ee00ff",
+    "primaryLight": "#00ffa6",
+    "accent": "#9e9e9e"
   },
   "borderRadius": "0.75rem"
 }
